@@ -1,0 +1,96 @@
+/**
+ * 1300px website stylesheet lg
+ */
+@media (max-width: 1300px) {
+    .about_beitmisk_page .container,
+    .amenities_page .container,
+    .archive_events_page .container,
+    .single_events_page .container,
+    .contact_us_page .container,
+    .services_page .container,
+    .lands_page .container,
+    .units_archive_page .container,
+    .comparing_units_page .container,
+    .single_units_page .container{
+        width: 1200px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a img {
+        max-width: 125px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a.emaarLogo img {
+        max-width: 38px;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper{
+        height: auto;
+    }
+
+    .units_archive_page .top_section h1.page_title{
+        top: 21%;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li{
+        padding: 0 10px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li a{
+        font-size: 14px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper.section_wrap.right_section form .search_field,
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field{
+        margin: 0 25px 0 0;
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field .input_wrapper .price_dropdown_wrapper {
+        max-width: 95%;
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field:nth-child(1) {
+        max-width: 45%;
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field input.submit_button{
+        padding: 16px 100px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper.section_wrap.right_section form .search_field input.submit_button {
+        padding: 16px 5px;
+    }
+
+    .top_menu_wrapper.scrolled.scrolling .inner_top_wrapper .left_section a img{
+        max-width: 130px;
+    }
+
+    .about_beitmisk_page .bottom_parent_section .the_community_section .the_community_listing_section .each_listing_wrapper .image_holder{
+        max-width: 60%;
+    }
+
+    .about_beitmisk_page .bottom_parent_section .the_community_section .the_community_listing_section .each_listing_wrapper .image_holder img{
+        width: 100%;
+        height: auto;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper .neighborhood_filtering_wrapper .selector_wrapper#advanced_filter_selector{
+        padding: 72.5px 0;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper .neighborhood_filtering_wrapper #neighborhood_filter_identifier{
+        margin: 65px 7px 65px 0;
+        width: 180px;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper .neighborhood_filtering_wrapper #neighborhood_filter_identifier h3{
+        font-size: 15px;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper .neighborhood_filtering_wrapper .selector_wrapper {
+        margin: 53px 5px;
+    }
+
+    .footer .footer_lower_section .left_section ul li {
+        padding: 0 15px;
+    }
+}

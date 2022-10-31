@@ -1,0 +1,117 @@
+/**
+ * 1600px website stylesheet lg
+ */
+@media (max-width: 1600px) {
+    .about_beitmisk_page .container,
+    .amenities_page .container,
+    .archive_events_page .container,
+    .single_events_page .container{
+        width: 1500px;
+    }
+
+    .homepage .misk_town_section{
+        background-position-y: -50px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li{
+        padding: 0 15px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li a{
+        font-size: 16px;
+        padding: 35px 0;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .right_section a{
+        font-size: 13px;
+    }
+
+    .homepage .top_section .swiper-container .swiper-slide .inner_description h1{
+        font-size: 50px;
+        max-width: 490px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field:nth-child(1) {
+        max-width: 53%;
+    }
+
+    .homepage .new_in_beitmisk_section, .homepage .new_in_beitmisk_section .s_new_in_section {
+        max-height: 630px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .right_section a{
+        margin: 22px 0 0 10px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a img{
+        max-width: 155px;
+        margin: 17px 0 0 0;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a.emaarLogo img{
+        max-width: 50px;
+        margin: 17px 0 0 5px;
+    }
+
+    .top_menu_wrapper.scrolled.scrolling .inner_top_wrapper .left_section a img{
+        max-width: 145px;
+        margin: 10px 0 0 0;
+    }
+
+    .footer .footer_lower_section .left_section ul li.menu-item-has-children ul li a,
+    .footer .footer_lower_section .left_section ul li a{
+        font-size: 12px;
+    }
+
+    .homepage .why_us_section .services_wrapper .each_service_wrap .overlayed_text{
+        font-size: 18px;
+    }
+
+    .contact_us_page .top_section .left_section .content_wrapper .inner_content_wrapper{
+        margin: 0 0 15px 0;
+    }
+
+    .contact_us_page .top_section .left_section .content_wrapper .inner_content_wrapper.phone_numbers_wrapper{
+        margin: 0 0 15px 0;
+    }
+
+    .contact_us_page .top_section .right_section,
+    .contact_us_page .top_section .left_section{
+        height: calc(100vh - 190px);
+    }
+
+    /*campaign single page styles*/ 
+    .single_campaign_page .form_wrapper_section .left_contact_section h3{
+        font-size: 15px;
+    }
+
+    .single_campaign_page .form_wrapper_section .section_identifier h2{
+        font-size: 18px;       
+    }
+
+    .single_campaign_page .why_us_section{
+        padding: 25px 0 0 0;
+    }
+
+    .single_campaign_page .services_section_wrapper .services_features_wrapper .left_section{
+        padding: 0 90px 0 80px;
+    }
+
+    .single_campaign_page .form_wrapper_section .section_identifier{
+        margin: 0 0 10px 0;
+    }
+
+    .single_campaign_page .services_section_wrapper .services_features_wrapper .each_service_wrap .description p{
+        font-size: 18px;
+    }
+
+    .single_campaign_page .video_section .video_holder iframe,
+    .single_campaign_page .vr_section .vr_holder iframe{
+        height: 450px;
+        width: 100%;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section, .single_campaign_page .new_in_beitmisk_section .s_new_in_section {
+        max-height: 630px;
+    }
+}

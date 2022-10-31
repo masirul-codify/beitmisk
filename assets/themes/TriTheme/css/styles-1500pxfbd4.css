@@ -1,0 +1,147 @@
+/**
+ * 1500px website stylesheet lg
+ */
+@media (max-width: 1500px) {
+        .about_beitmisk_page .container,
+        .amenities_page .container,
+        .archive_events_page .container,
+        .single_events_page .container{
+            width: 1400px;
+        }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li a{
+        font-size: 14px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .right_section a{
+        font-size: 11px;
+    }
+
+    .homepage .top_section .swiper-container .swiper-slide .inner_description h1{
+        font-size: 40px;
+        max-width: 315px;
+    }
+
+    .homepage .top_section .swiper-container .swiper-slide .inner_description a{
+        padding: 15px 50px;
+        font-size: 14px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper .section_wrap.right_section form .search_field{
+        max-width: 25%;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper .section_wrap.right_section form .search_field input.submit_button{
+        padding: 18px 60px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper .section_wrap.left_section h3 {
+        font-size: 26px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field:nth-child(1) {
+        max-width: 48%;
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field .input_wrapper .price_dropdown_wrapper {
+        max-width: 90%;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper .section_wrap.right_section form .search_field label{
+        font-size: 15px;
+    }
+
+    .homepage .new_in_beitmisk_section, .homepage .new_in_beitmisk_section .s_new_in_section {
+        max-height: 565px;
+    }
+
+    .homepage .why_us_section .services_wrapper .each_service_wrap h3{
+        font-size: 18px;
+    }
+
+    .homepage .misk_town_section .inner_description{
+        margin: 65px 165px;
+    }
+
+    .homepage .misk_town_section h1{
+        font-size: 40px;
+    }
+
+    .homepage .misk_town_section h3{
+        font-size: 19px;
+    }
+
+    .homepage .the_club_section h3:nth-child(2){
+        font-size: 18px;
+    }
+
+    .homepage .events_section .events_wrapper .each_news_wrap .description_holder h2,
+    .homepage .our_community_stories .stories_wrapper .each_story_wrap .description_holder h2{
+        font-size: 18px;
+    }
+
+    .homepage .construction_update_section .swiper-slide .image_holder {
+        float: right;
+        max-width: 54%;
+    }
+
+    .homepage .construction_update_section .swiper-slide .image_holder img{
+        width: 100%;
+        height: auto;
+    }
+
+    .homepage .construction_update_section .swiper-slide .description_holder h2{
+        font-size: 40px;
+        max-width: 350px;
+    }
+
+    .homepage .construction_update_section .swiper-slide .description_holder h3{
+        font-size: 24px;
+    }
+
+    .homepage .construction_update_section .swiper-slide .description_holder .content{
+        font-size: 18px;
+    }
+
+    .homepage .why_us_section .services_wrapper .each_service_wrap{
+        height: 270px;
+        max-width: 15%;
+    }
+
+/*    .archive_events_page .top_section{
+        height: calc(100vh - 150px);
+    }*/
+
+    .in_the_media_page .stories_wrapper .parent_story_wrap .single_post_content_holder .right_section .video_holder iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+    .amenities_page .amenities_listing_section .each_amenity_wrapper.float_left .left_section .inner_description{
+        margin: 0 0 0 30px;
+    }
+
+    .footer .footer_lower_section .left_section ul li{
+        padding: 0 22px;
+    }
+
+    /*campaign single page styles*/ 
+    .single_campaign_page .side_padding,
+    .top_campaign_header .inner_top_wrapper,
+    .campaigns_footer .side_padding{
+        padding: 0 20px;
+    }
+
+    .campaigns_footer .left_section .social_media_wrapper a:nth-child(2){
+        margin: 0 10px;
+    }
+
+    .campaigns_footer .middle_right_section .inner_wrapper h4,
+    .campaigns_footer .middle_right_section .inner_wrapper h5{
+        font-size: 13px;
+    }
+    
+    .single_campaign_page .new_in_beitmisk_section, .single_campaign_page .new_in_beitmisk_section .s_new_in_section {
+        max-height: 565px;
+    }
+}

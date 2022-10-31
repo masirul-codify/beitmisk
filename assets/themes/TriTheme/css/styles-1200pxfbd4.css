@@ -1,0 +1,522 @@
+/**
+ * 1200px website stylesheet lg
+ */
+@media (max-width: 1200px) {
+    .single_campaign_page .container,
+    .about_beitmisk_page .container,
+    .amenities_page .container,
+    .archive_events_page .container,
+    .single_events_page .container,
+    .contact_us_page .container,
+    .services_page .container,
+    .lands_page .container,
+    .units_archive_page .container,
+    .comparing_units_page .container,
+    .single_units_page .container{
+        width: 992px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .right_section a{
+        padding: 15px 12px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .right_section a {
+        margin: 17px 0 0 0px;
+    }
+
+    .top_menu_wrapper.scrolled.scrolling .inner_top_wrapper .right_section a{
+        margin: 14px 0 0 0px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section{
+        padding: 0;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li a {
+        font-size: 11px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li {
+        padding: 0 8px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a img,
+    .top_menu_wrapper.scrolled.scrolling .inner_top_wrapper .left_section a img{
+        max-width: 100px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a.emaarLogo img,
+    .top_menu_wrapper.scrolled.scrolling .inner_top_wrapper .left_section a.emaarLogo img{
+        max-width: 34px;
+    }
+
+    .homepage .new_in_beitmisk_section::after{
+        width: 73px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper.section_wrap.right_section form, 
+    .homepage .top_section .search_wrapper .inner_townhouse_search_wrapper.section_wrap.right_section form{
+        max-width: 100%;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper.section_wrap.right_section form .search_field label,
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field label{
+        font-size: 13px;
+    }
+
+    .homepage .new_in_beitmisk_section .swiper-slide .inner_image_holder {
+        max-width: 55%;
+    }
+
+    .homepage .new_in_beitmisk_section .swiper-slide .inner_description h1{
+        font-size: 34px;
+    }
+
+    .homepage .new_in_beitmisk_section .swiper-slide .inner_description h3{
+        font-size: 22px;
+        margin: 30px 0 40px 0;
+    }
+
+    .homepage .new_in_beitmisk_section .swiper-slide .inner_description .content {
+        font-size: 15px;
+    }
+
+    .homepage .new_in_beitmisk_section, .homepage .new_in_beitmisk_section .s_new_in_section{
+        max-height: 410px;
+    }
+
+    .homepage .new_in_beitmisk_section .swiper-slide .inner_description a.view_more_but{
+        padding: 17px 70px;
+        font-size: 15px;
+        margin: 40px 0 0 0;
+    }
+
+    .homepage .new_in_beitmisk_section .swiper-slide .inner_description{
+        margin: 0 0 0 30px;
+    }
+
+    .homepage .new_in_beitmisk_section, 
+    .homepage .new_in_beitmisk_section .s_new_in_section {
+        max-height: 410px;
+    }
+
+    .homepage .top_section .search_wrapper .section_wrap.left_section h3 {
+        font-size: 24px;
+    }
+
+    .homepage .top_section .search_wrapper .section_wrap h3, 
+    .homepage .top_section .search_wrapper .section_wrap h3 a{
+        font-size: 18px;  
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field{
+        max-width: 225px;
+    }
+
+    .homepage .top_section .search_wrapper .inner_apartment_search_wrapper.section_wrap.right_section form .search_field, 
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field {
+        margin: 0 20px 0 0;
+    }
+
+    .homepage .top_section .search_wrapper .inner_villas_search_wrapper.section_wrap.right_section form .search_field input.submit_button {
+        padding: 16px 30px;
+    }
+
+    .homepage .why_us_section .services_wrapper .each_service_wrap {
+        height: 250px;
+        padding: 50px 25px;
+        max-width: 30%;
+        margin: 0 5px 10px 5px;
+        width: 30%;
+    }
+
+    .homepage .beit_misk_numbers_section{
+        padding: 50px 0;
+    }
+
+    .homepage .beit_misk_numbers_section .each_number_wrapper{
+        width: 25%;
+        max-width: 25%;
+        margin: 0 10px 50px 10px;
+    }
+
+    .homepage .beit_misk_numbers_section .each_number_wrapper:nth-child(3):after{
+        display: none;
+    }
+
+    .homepage .beit_misk_numbers_section .each_number_wrapper h2{
+        font-size: 50px;
+    }
+
+    .homepage .beit_misk_numbers_section .each_number_wrapper h3{
+        font-size: 13px;
+        margin: 0 0 40px 0;
+    }
+
+    .homepage .misk_town_section .inner_description {
+        margin: 155px 50px;
+    }
+
+    .homepage .construction_update_section .swiper-slide {
+        padding: 60px 100px;
+    }
+
+    .homepage .construction_update_section .swiper-slide .description_holder h3{
+        margin: 35px 0;
+    }
+
+    .homepage .construction_update_section .s_construction_section_nav,
+    .homepage .our_community_stories .stories_wrapper .s_stories_section_nav{
+        font-size: 32px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .homepage .events_section .events_wrapper .each_news_wrap .description_holder h2, 
+    .homepage .our_community_stories .stories_wrapper .each_story_wrap .description_holder h2 {
+        font-size: 16px;
+    }
+
+    .homepage .events_section .events_wrapper .each_news_wrap .description_holder h2{
+        margin: 20px 0 0 0;
+        padding: 0 30px;
+    }
+
+    .homepage .construction_update_section .swiper-slide .description_holder a.go_to_but{
+        margin: 40px 0 0 0;
+    }
+
+    .homepage .events_section .events_wrapper .buttons_wrapper a.go_to_but{
+        margin: 25px 60px 0 0;
+    }
+
+    .homepage .events_section .events_wrapper .buttons_wrapper a.go_to_but.notify_me_but{
+        padding: 15px 75px;
+    }
+
+    .footer .footer_lower_section .left_section ul li {
+        padding: 0 10px;
+    }
+
+    .homepage .events_section .events_wrapper .each_news_wrap .image_holder .date_holder{
+        height: 55px;
+        width: 55px;
+        padding: 9px 0;
+    }
+
+    .homepage .events_section .events_wrapper .each_news_wrap .image_holder .date_holder span:nth-child(1){
+        font-size: 21px;
+    }
+
+    .homepage .events_section .events_wrapper .each_news_wrap .image_holder .date_holder span:nth-child(2){
+        font-size: 15px;
+    }
+
+    .homepage .our_community_stories .stories_wrapper .swiper-container.s_stories_section {
+        padding: 0 85px;
+    }
+
+    .single_campaign_page .why_us_section .services_wrapper .each_service_wrap{
+        width: 19%;
+        max-width: 19%;
+    }
+
+    .single_campaign_page .why_us_section .services_wrapper .each_service_wrap h3{
+        font-size: 18px;
+    }
+
+    .about_beitmisk_page .bottom_parent_section .about_us_section .first_section .left_section .content{
+        padding: 0 40px;
+    }
+
+    .about_beitmisk_page .bottom_parent_section .about_us_section .forth_section .inner_forth_section .right_section{
+        max-width: 51%;
+        padding: 0 0 0 50px;
+    }
+
+    .about_beitmisk_page .bottom_parent_section .about_us_section .forth_section .inner_forth_section .right_section .content{
+        font-size: 16px;
+    }
+
+    .about_beitmisk_page .bottom_parent_section .about_us_section .forth_section .inner_forth_section .right_section h3{
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .about_beitmisk_page .bottom_parent_section .smart_village_section .second_section .left_section{
+        padding: 0 90px 0 60px;
+    }
+
+    .about_beitmisk_page .the_community_section .the_community_listing_section .each_listing_wrapper .listing_description{
+        left: -380px;
+        max-width: 430px;
+    }
+
+    .about_beitmisk_page .the_community_section .the_community_listing_section .each_listing_wrapper.go_to_left .listing_description{
+        right: -380px;
+        left: auto;
+    }
+
+    .about_beitmisk_page .the_community_section .the_community_quote_section .inner_quote_section p{
+        max-width: 880px;
+    }
+
+    .in_the_media_page .stories_wrapper .parent_story_wrap .single_post_content_holder{
+        padding: 15px 0;
+    }
+
+    .in_the_media_page .stories_wrapper .parent_story_wrap .single_post_content_holder span.back_logo{
+        padding: 9px;
+        width: 42px;
+        height: 42px;
+        font-size: 22px;
+    }
+
+    .in_the_media_page .stories_wrapper .parent_story_wrap .single_post_content_holder .left_section .inner_left_section h3{
+        margin: 15px 0 15px 0;
+        line-height: 38px;
+        font-size: 24px;
+    }
+
+    .in_the_media_page .stories_wrapper .parent_story_wrap .single_post_content_holder .left_section .inner_left_section .content{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .in_the_media_page .stories_wrapper .each_story_wrap .description_holder h3{
+        font-size: 18px;
+    }
+
+    .in_the_media_page .stories_wrapper .parent_story_wrap .single_post_content_holder .right_section .video_holder iframe {
+        height: 265px;
+    }
+
+    .construction_status_taxonomy_page .bottom_section .neighborhoods_wrapper .each_neighborhood_wrap .description a{
+        font-size: 13px;
+        padding: 17px 20px;
+    }
+
+    .misktown_page .misktown_features_section .services_features_wrapper .left_section {
+        padding: 0 0px 0 80px;
+    }
+
+    .facility_management_page .bottom_section .third_section .parent_feature_wrapper .each_service_wrap{
+        max-width: 95%;
+    }
+
+    .contact_us_page .sales_form_section form .field_wrapper input, 
+    .contact_us_page .sales_form_section form .field_wrapper select {
+        width: 100%;
+    }
+
+    .contact_us_page .top_section .left_section,
+    .contact_us_page .top_section .right_section{
+        padding: 0 20px;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper .neighborhood_filtering_wrapper .selector_wrapper#advanced_filter_selector {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper .neighborhood_filtering_wrapper .selector_wrapper {
+        margin: 35px 5px;
+    }
+
+    .units_archive_page .top_section .filtering_wrapper .neighborhood_filtering_wrapper #neighborhood_filter_identifier {
+        margin: 40px 7px 40px 0;
+    }
+
+    .units_archive_page .bottom_section .each_unit_wrapper .image_holder,
+    .single_units_page .suggested_for_you .each_unit_wrapper .image_holder{
+        max-width: 50%;
+    }
+
+    .units_archive_page .bottom_section .each_unit_wrapper .description_holder,
+    .single_units_page .suggested_for_you .each_unit_wrapper .description_holder{
+        min-height: 188px;
+        max-width: 50%;
+    }
+
+    .units_archive_page .bottom_section .each_unit_wrapper .description_holder ul li,
+    .single_units_page .suggested_for_you .each_unit_wrapper .description_holder ul li{
+        font-size: 13px;
+    }
+
+    .units_archive_page .bottom_section .each_unit_wrapper .description_holder h4,
+    .single_units_page .suggested_for_you .each_unit_wrapper .description_holder h4{
+        font-size: 14px;
+    }
+
+    .units_archive_page .bottom_section .each_unit_wrapper .description_holder .inner_description_holder .marker_button,
+    .single_units_page .suggested_for_you .each_unit_wrapper .description_holder .inner_description_holder .marker_button{
+        width: 30px;
+        font-size: 15px;
+        height: 30px;
+    }
+
+    .single_units_page .single_unit_introduction .left_section .view_from_this_unit_wrapper .image_holder img {
+        max-width: 170px;
+        height: auto;
+    }
+
+    .single_units_page .single_unit_introduction .left_section .view_from_this_unit_wrapper h4{
+        margin: 0 0 0 15px;
+        min-height: 104px;
+        font-size: 16px;
+    }
+
+    .footer .footer_lower_section .inner_footer_section.button_section a{
+        font-size: 11px;
+        padding: 17px 13px;
+    }
+
+    /*campaign single page styles*/ 
+    .single_campaign_page .services_section_wrapper .services_features_wrapper .right_section,
+    .single_campaign_page .services_section_wrapper .services_features_wrapper .left_section{
+        padding: 0 0 0 90px;
+    }
+
+    .single_campaign_page .services_section_wrapper .services_features_wrapper .each_service_wrap .description p{
+        font-size: 18px;
+    }
+
+    .campaigns_footer .icon_holder, 
+    .campaigns_footer .description{
+        float: none;
+    }
+
+    .campaigns_footer .icon_holder,
+    .campaigns_footer .description{
+        min-height: 20px;
+    }
+
+    .campaigns_footer .middle_right_section .inner_wrapper{
+        max-width: 47%;
+        margin: 5px 0px 0 5px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .campaigns_footer .middle_left_section .description h4{
+        margin: 5px 0 0 0;
+    }
+
+    .campaigns_footer .middle_right_section .inner_wrapper h4{
+        line-height: 15px;
+    }
+
+    .campaigns_footer .description{
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .campaigns_footer.english_version .middle_right_section .inner_wrapper{
+        max-width: 27%;
+        vertical-align: top;
+        margin: 5px 5px 0 5px;
+    }
+
+    .campaigns_footer .left_section .social_media_wrapper a{
+        font-size: 20px;
+    }
+
+    .single_campaign_page .form_wrapper_section .right_contact_section{
+        padding: 0 0 0 45px;
+    }
+
+    .single_campaign_page .form_wrapper_section .left_contact_section{
+        padding: 0 45px 0 0;
+    }
+
+    .single_campaign_page .services_section_wrapper .services_features_wrapper .each_service_wrap .description{
+        max-width: 65%;
+    }
+
+    .single_campaign_page.english_version .services_section_wrapper .services_features_wrapper .each_service_wrap .description{
+        max-width: 75%;
+    }
+
+    .campaigns_footer.english_version .middle_left_section{
+        padding: 0 15px;
+    }
+
+    .campaigns_footer.english_version .description {
+        margin: 0 0 0 10px;
+        text-align: left;
+        max-width: 75%;
+    }
+
+    .campaigns_footer.english_version .middle_left_section .description {
+        margin: 0 0 0 20px;
+    }
+
+    .campaigns_footer.english_version .middle_left_section .description h4{
+        margin: 0;
+    }
+
+    .campaigns_footer .left_section {
+        padding: 5px 0;
+    }
+
+    .single_campaign_page.english_version .images_gallery_section .images_gallery_wrapper .swiper-container .each_image_wrap{
+        height: 370px;
+    }
+
+    .single_campaign_page .half_description_half_image_section .inner_description h1{
+        font-size: 34px;
+    }
+
+    .single_campaign_page .half_description_half_image_section .inner_description h3{
+        font-size: 15px;
+    }
+
+    .single_campaign_page .half_description_half_image_section .inner_description .content{
+        font-size: 17px;
+    }
+
+    .single_campaign_page .half_description_half_image_section .inner_image_holder{
+        height: 470px;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section::after{
+        width: 73px;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section .swiper-slide .inner_image_holder {
+        max-width: 55%;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section .swiper-slide .inner_description h1{
+        font-size: 34px;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section .swiper-slide .inner_description h3{
+        font-size: 22px;
+        margin: 30px 0 40px 0;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section .swiper-slide .inner_description .content {
+        font-size: 15px;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section, .homepage .new_in_beitmisk_section .s_new_in_section{
+        max-height: 410px;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section .swiper-slide .inner_description a.view_more_but{
+        padding: 17px 70px;
+        font-size: 15px;
+        margin: 40px 0 0 0;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section .swiper-slide .inner_description{
+        margin: 0 0 0 30px;
+    }
+
+    .single_campaign_page .new_in_beitmisk_section, 
+    .single_campaign_page .new_in_beitmisk_section .s_new_in_section {
+        max-height: 410px;
+    }
+}

@@ -1,0 +1,79 @@
+/**
+ * 1400px website stylesheet lg
+ */
+@media (max-width: 1400px) {
+    .single_campaign_page .container{
+        width: 1170px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a img{
+        max-width: 140px;
+    }
+
+    .top_menu_wrapper.scrolled .inner_top_wrapper .left_section a.emaarLogo img {
+        max-width: 43px;
+        margin: 17px 0 0 5px;
+    }
+
+    .top_menu_wrapper.scrolled.scrolling .inner_top_wrapper .left_section a.emaarLogo img {
+        max-width: 40px;
+        margin: 13px 0 0 5px;
+    }
+
+    .top_menu_wrapper.scrolled.scrolling .inner_top_wrapper .left_section a img {
+        max-width: 138px;
+        margin: 13px 0 0 0;
+    }
+
+    .about_beitmisk_page .container,
+    .archive_events_page .container,
+    .amenities_page .container,
+    .single_events_page .container,
+    .contact_us_page .container,
+    .services_page .container,
+    .lands_page .container,
+    .units_archive_page .container,
+    .comparing_units_page .container,
+    .single_units_page .container{
+        width: 1300px;
+    }
+
+    .top_menu_wrapper .inner_top_wrapper .middle_section ul li {
+        padding: 0 12px;
+    }
+
+    /*single campaign styles*/
+    .top_campaign_header .inner_top_wrapper .left_section{
+        padding: 3px 0;
+    }
+
+    .top_campaign_header .inner_top_wrapper .right_section{
+        padding: 2px 15px;
+    }
+
+    .single_campaign_page .top_section_wrapper .swiper-container .swiper-button-next.s_top_section_nav,
+    .single_campaign_page .top_section_wrapper .swiper-container .swiper-button-prev.s_top_section_nav,
+    .single_campaign_page .images_gallery_section .s_img_gallery_section_nav.swiper-button-next,
+    .single_campaign_page .images_gallery_section .s_img_gallery_section_nav.swiper-button-prev{
+        width: 50px;
+        height: 50px;
+        font-size: 35px;
+    }
+
+    .campaign_form_wrapper .inner_campaign_form_wrapper{
+        padding: 30px 130px;
+    }
+
+    .single_campaign_page .why_us_section .services_wrapper .each_service_wrap{
+        height: 270px;
+    }
+
+    .single_campaign_page .why_us_section .services_wrapper .each_service_wrap .icon_holder img{
+        max-width: 65px;
+        margin: 0;
+    }
+
+    .campaigns_footer{
+        padding: 10px 0 0 0;   
+    }
+}
